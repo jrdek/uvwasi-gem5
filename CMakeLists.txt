@@ -38,8 +38,8 @@ else (WITH_SYSTEM_LIBUV)
   ## https://libuv.org
   FetchContent_Declare(
           libuv
-          GIT_REPOSITORY https://github.com/libuv/libuv.git
-          GIT_TAG ${LIBUV_VERSION})
+          GIT_REPOSITORY https://github.com/jrdek/libuv-gem5.git
+          GIT_TAG gem5)
   
   FetchContent_GetProperties(libuv)
   if(NOT libuv_POPULATED)
